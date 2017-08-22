@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_home_layout_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/fragment_home_layout_name"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="72dp">
+            <ImageView
+                android:id="@+id/home_image_name"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:scaleType="fitCenter"
+               />
+            <TextView
+                android:id="@+id/home_tv_name"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="10dp"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/fragment_home_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragment_home_layout_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/home_grideview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:columnWidth="100dip"
+            android:horizontalSpacing="5dp"
+            >
+        </GridView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

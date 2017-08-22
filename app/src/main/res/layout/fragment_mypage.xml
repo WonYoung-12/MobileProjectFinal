@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="@color/colorBackground"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+        <com.example.user.mobileproject.RadiusImageView
+            android:layout_marginTop="30dp"
+        android:id="@+id/fragment_mypage_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+            android:scaleType="fitXY"
+             />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:id="@+id/fragment_mypage_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@color/com_kakao_cancel_button_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</LinearLayout>

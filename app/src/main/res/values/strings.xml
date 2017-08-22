@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">청소년쉼터</string>
+
+    <string name="title_section1">쉼터 찾기</string>
+    <string name="title_section2">상담</string>
+    <string name="title_section3">계정</string>
+</resources>
